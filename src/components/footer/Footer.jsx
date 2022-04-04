@@ -36,7 +36,9 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; 2022 Jarrell Tan. All rights reserved.</small>
+        <small>
+          &copy; {new Date().getFullYear()} Jarrell Tan. All rights reserved.
+        </small>
       </div>
     </footer>
   );

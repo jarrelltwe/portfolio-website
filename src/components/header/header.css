@@ -1,5 +1,5 @@
 header{
-    height: 100vh;
+    height: 50rem;
     padding-top: 3rem;
     overflow: hidden;
     background-color: #2C3333;
@@ -69,13 +69,13 @@ header{
 
 @media screen and (max-width: 1024px){
     header{
-        height: 90vh;
+        height: 50rem;
     }
 }
 
 @media screen and (max-width: 600px){
     header{
-        height: 110vh;
+        height: 55rem;
     }
 
     .header__name{
